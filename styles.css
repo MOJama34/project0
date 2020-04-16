@@ -1,0 +1,47 @@
+.caption{
+
+    font-style: italic;
+    font-size: 13x;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/*figure out how to align the maps (East Asia) in new.html to the right.*/
+
+h1{
+    text-align:center;
+    color:rgb(159,159,159);
+    /*figure out a good color for the headers.*/
+}
+
+#about::first-letter{
+    font-size: 200%;
+    font-weight: bold;
+    
+}
+body{
+    margin-left: 70px;
+    margin-right:70px;
+}
+img, iframe{
+    margin-left: 150px;
+}
+
+li a.navbar:hover {
+    text-decoration: underline;}
+    /*Want to style the navbar links (not working)!*/
+
+@media only screen and (max-width: 600px){
+    body{
+      background-color: gray;
+      color:white;
+    }
+    h1{
+      color:red;
+    }
+  }
+
+  ul ul>li{
+      color:blue;
+      font-weight:bold;
+  }
